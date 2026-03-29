@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sencha's Info thingy</title>
+        <link rel="stylesheet" href="hl3soon.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="baseDiv">
+            <!--<h2 class="AboutMeTitle">About Me</h2>-->
+            <img src="./img/i-still-got-hope-for-hl3-v0-oo6w2lufns6g1.webp">
+            <audio id="bgAudio" src="./sound/Hazardous_Environments.mp3"></audio>
+            
+            <div class="audioControls">
+                <button id="playPauseBtn">Play</button>
+            </div>
+        </div>
+
+        <script>
+            const audio = document.getElementById('bgAudio');
+            const btn = document.getElementById('playPauseBtn');
+
+            btn.addEventListener('click', () => {
+                if(audio.paused){
+                    audio.play();
+                    btn.textContent = 'Pause';
+                } else {
+                    audio.pause();
+                    btn.textContent = 'Play';
+                }
+            });
+        </script>
+    </body>
+</html>

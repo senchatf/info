@@ -1,0 +1,56 @@
+
+.titleDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 5px solid #94b1ff;
+    padding: 1%;
+    width: 25%;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: 'comic sans'; 
+    src: url('./fonts/Comic\ Sans\ MS.ttf');
+}
+
+body {
+    background-color: #333333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baseDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #94b1ff;
+    padding: 1%;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.AboutMeTitle {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    color: #ffffff;
+    font-size: 250%;
+}
+
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    color: #ffffff;
+    font-size: 190%;
+    
+}
+
+.title {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    color: #ffffff;
+    font-size: 250%;
+}
